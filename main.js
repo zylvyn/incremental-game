@@ -7,3 +7,8 @@ var gameData = {
   gold: 0,
   seedsPerClick: 1
 }
+
+function digSeeds() {
+  gameData.seeds += gameData.seedsPerClick
+  document.getElementById("seedsDug").innerHTML = gameData.seedsDug + " seeds"
+}

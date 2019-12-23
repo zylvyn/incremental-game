@@ -6,8 +6,17 @@
   </head>
 
   <body>
+
+    <div id="header">
+      <div id="location_room" class="headerButton selected">A Firelit Room</div>
+      <div id="location_outside" class="headerButton">A Lonely Hut</div>
+    </div>
+
+
+    <p id="stamina">Stamina: 10 / 10</p>
     <p id="seedsDug">0 Seeds</p>
-    <button onclick="digSeeds()">Dig for Seeds</button>
+    <button onclick="digSeeds()">Dig for Seeds</button> <button onclick="buySeedsPerClick()" id="perClickUpgrade">Upgrade Digging (Currently Level 1) Cost: 10 Gold</button>
+
 
     <script src="main.js" charset="utf-8" type="text/javascript"></script>
   </body>
